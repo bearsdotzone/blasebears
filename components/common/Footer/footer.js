@@ -1,6 +1,6 @@
 function FooterComponent() {
   return (
-    <div class="footer">
+    <div className="footer">
       github:{" "}
       <a href="https://github.com/bearsdotzone/blasebears">
         this website is open source software
