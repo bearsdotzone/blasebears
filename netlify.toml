@@ -1,3 +1,8 @@
+[build]
+  command = "npm run build"
+  publish = "dist"
+  Functions = "functions"
+
 [[redirects]]
     from = "/next"
     to = "/.netlify/functions/next"
