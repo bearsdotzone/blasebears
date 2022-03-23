@@ -1,11 +1,17 @@
 {
   "name": "blasebears",
   "version": "0.1.0",
-  "private": true,
+  "description": "blaseball webring",
+  "author": "bearsdotzone",
+  "license": "Anticapitalist Software License, lambda functions MIT",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/bearsdotzone/blasebears"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "npm run build:lambda",
-    "start": "next start",
+    "start": "npm run serve:lambda",
     "lint": "next lint",
     "serve:lambda": "netlify-lambda serve _lambda",
     "build:lambda": "netlify-lambda build _lambda"
