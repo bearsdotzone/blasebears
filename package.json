@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build:lambda",
+    "build": "npm run build:lambda",
     "start": "next start",
     "lint": "next lint",
     "serve:lambda": "netlify-lambda serve _lambda",
