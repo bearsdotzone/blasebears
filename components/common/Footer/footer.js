@@ -1,6 +1,8 @@
+import styles from "../../../styles/Home.module.css";
+
 function FooterComponent() {
   return (
-    <div className="footer">
+    <div className={styles.footer}>
       github:{" "}
       <a href="https://github.com/bearsdotzone/blasebears">
         this website is open source software

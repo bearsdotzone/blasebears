@@ -16,22 +16,5 @@ body {
   box-sizing: border-box;
 }
 
-.footer {
-  position: sticky;
-  bottom: 0rem;
-  padding: 1rem;
-  background-color: aquamarine;
-  text-align: center;
-  /* width: 100%; */
-}
 
-.header {
-  position: sticky;
-  top: 0rem;
-  padding: 1pt;
-  text-align: center;
-  background-color: blueviolet;
-  border-color: grey;
-  border-bottom-style: dashed;
-  border-bottom-width: 5px;
-}
+

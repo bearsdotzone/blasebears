@@ -3,7 +3,7 @@
 }
 
 .main {
-  min-height: 100vh;
+  /* min-height: 100vh; */
   padding: 4rem 0;
   flex: 1;
   display: flex;
@@ -55,6 +55,26 @@
   justify-content: center;
   flex-wrap: wrap;
   max-width: 800px;
+}
+
+.footer {
+  position: sticky;
+  bottom: 0rem;
+  padding: 1rem;
+  background-color: aquamarine;
+  text-align: center;
+  /* width: 100%; */
+}
+
+.header {
+  position: sticky;
+  top: 0rem;
+  padding: 1pt;
+  text-align: center;
+  background-color: blueviolet;
+  border-color: grey;
+  border-bottom-style: dashed;
+  border-bottom-width: 5px;
 }
 
 .card {
