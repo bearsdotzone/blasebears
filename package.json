@@ -10,8 +10,8 @@
   },
   "scripts": {
     "dev": "next dev",
-    "build": "npm run build:lambda",
-    "start": "npm run serve:lambda",
+    "build": "next build && npm run build:lambda",
+    "start": "next start",
     "lint": "next lint",
     "serve:lambda": "netlify-lambda serve _lambda",
     "build:lambda": "netlify-lambda build _lambda"
