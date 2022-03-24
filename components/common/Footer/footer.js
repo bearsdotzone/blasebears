@@ -19,11 +19,8 @@ function FooterComponent() {
         Internet League Blaseball Fans Web Ring
       </a>
       <br />
-      <a href="https://ring.yell.rocks/prev">
-        Previous Website
-      </a>{" "}<a href="https://ring.yell.rocks/random">
-        Random Website
-      </a>{" "}
+      <a href="https://ring.yell.rocks/prev">Previous Website</a>{" "}
+      <a href="https://ring.yell.rocks/random">Random Website</a>{" "}
       <a href="https://ring.yell.rocks/next">Next Website</a>
     </div>
   );

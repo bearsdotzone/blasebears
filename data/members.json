@@ -1,12 +1,17 @@
 [
-    {
-        "title": "blasebears - web ring home page",
-        "url": "https://blasebears.neocities.org/",
-        "feed": null
-    },
-    {
-        "title": "yell.rocks - cory time",
-        "url": "https://yell.rocks/",
-        "feed": null
-    }
+  {
+    "title": "ring.yell.rocks - web ring home page",
+    "url": "https://ring.yell.rocks/",
+    "feed": null
+  },
+  {
+    "title": "blasebears - web ring home page",
+    "url": "https://blasebears.neocities.org/",
+    "feed": null
+  },
+  {
+    "title": "yell.rocks - cory time",
+    "url": "https://yell.rocks/",
+    "feed": null
+  }
 ]
