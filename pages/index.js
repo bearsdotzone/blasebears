@@ -6,7 +6,7 @@ import { getPostData } from "../lib/pages";
 
 export default function Home({ meta, content }) {
   return (
-    <div className={styles.container}>
+    <div>
       <Head>
         <title>Internet League Blaseball Fans Web Ring</title>
         <meta

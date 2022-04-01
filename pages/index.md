@@ -27,4 +27,6 @@ https://ring.yell.rocks/prev - A discovery link that will take you to the previo
 
 https://ring.yell.rocks/random - A discovery link that will take you to a random member site
 
+It's really that easy, don't concern yourself with whether or not your website is "finished" Part of the beauty of a smaller internet is under construction gifs.
+
 How does this work? More information available on [GitHub](https://github.com/bearsdotzone/blasebears)
