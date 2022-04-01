@@ -7,10 +7,12 @@ body {
   background-image: url("../images/sand.gif");
 }
 
-/* a {
-  color: inherit;
-  text-decoration: none;
-} */
+a {
+  color: #1460aa;
+}
+a:visited {
+  color: #77448b;
+}
 
 * {
   box-sizing: border-box;
