@@ -22,6 +22,8 @@ function FooterComponent() {
       <a href="https://ring.yell.rocks/prev">Previous Website</a>{" "}
       <a href="https://ring.yell.rocks/random">Random Website</a>{" "}
       <a href="https://ring.yell.rocks/next">Next Website</a>
+      <br />
+      Bears loves Alexandra 💖
     </div>
   );
 }
