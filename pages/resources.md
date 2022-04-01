@@ -26,4 +26,4 @@ Your search engine of choice. I'm serious, nobody can hold the whole of web desi
 
 If HTML is not your speed, a WYSIWYG editor works more like Microsoft Word in terms of laying out pages. Some web hosts like Wix have their own WYSIWYG editor built in.
 
-[BlueGriffon](bluegriffon.org) Free for Windows, Mac, and Linux with the option to buy a license for optional features.
+[BlueGriffon](http://bluegriffon.org) Free for Windows, Mac, and Linux with the option to buy a license for optional features.
