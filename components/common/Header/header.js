@@ -7,9 +7,9 @@ function HeaderComponent() {
   return (
     <div className={styles.header}>
       <div className={styles.rowcontainer}>
-        <Image src={baseball} layout="fixed" />
+        <Image src={baseball} layout="fixed" unoptimized="true" />
         <h1>Internet League Blaseball Fans Web Ring</h1>
-        <Image src={baseball} layout="fixed" />
+        <Image src={baseball} layout="fixed" unoptimized="true" />
       </div>
       <Link href="/">
         <a>Home</a>
