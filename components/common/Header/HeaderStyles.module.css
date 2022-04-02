@@ -1,0 +1,23 @@
+.header {
+  position: static;
+  top: 0rem;
+  padding: 1pt;
+  text-align: center;
+  background-color: rgba(200, 200, 200, 0.5);
+  padding: 1rem 1rem 1rem 1rem;
+  align-items: center;
+  border-width: 0rem 0rem 0.5rem 0rem;
+  border-color: #da0000;
+  border-style: ridge;
+}
+
+.header h1 {
+  display: inline-block;
+}
+
+.rowcontainer {
+  flex-direction: row;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
