@@ -20,7 +20,7 @@ function FooterComponent() {
           <br />
           Bears loves Alexandra 💖
         </p>
-        <Image src={construction} />
+        <Image src={construction} unoptimized="true" />
       </div>
     </div>
   );
