@@ -18,7 +18,7 @@ Your search engine of choice. I'm serious, nobody can hold the whole of web desi
 
 [GifCities](https://gifcities.org/) is run by the internet archive. It's the "GeoCities Animated GIF Search Engine"
 
-[Accesible Color Combinations](http://colorsafe.co/) Can help to make sure your website is the right kind of quaint.
+[Accesible Color Combinations](http://colorsafe.co/) Making sure we can all join in on the fun.
 
 [MDN Accessibility](https://developer.mozilla.org/en-US/docs/Learn/Accessibility) All about alt text, navigation, etc.
 
@@ -27,3 +27,19 @@ Your search engine of choice. I'm serious, nobody can hold the whole of web desi
 If HTML is not your speed, a WYSIWYG editor works more like Microsoft Word in terms of laying out pages. Some web hosts like Wix have their own WYSIWYG editor built in.
 
 [BlueGriffon](http://bluegriffon.org) Free for Windows, Mac, and Linux with the option to buy a license for optional features.
+
+## Examples
+
+### HTML
+
+A link to the web ring homepage
+
+```html
+<a href="https://ring.yell.rocks/">Blaseball Web Ring</a>
+```
+
+A link to the next web ring page
+
+```html
+<a href="https://ring.yell.rocks/next">Next Page</a>
+```
