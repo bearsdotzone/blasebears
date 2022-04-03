@@ -28,6 +28,8 @@ If HTML is not your speed, a WYSIWYG editor works more like Microsoft Word in te
 
 [BlueGriffon](http://bluegriffon.org) Free for Windows, Mac, and Linux with the option to buy a license for optional features.
 
+[Plasmic](https://www.plasmic.app/) Generous free option and web based. Only readily publishes to GitHub, but that's also free.
+
 ## Examples
 
 ### HTML
