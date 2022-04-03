@@ -13,3 +13,7 @@ a {
 a:visited {
   color: #77448b;
 }
+
+.remark-highlight {
+  max-width: calc(100vw - 2rem);
+}
