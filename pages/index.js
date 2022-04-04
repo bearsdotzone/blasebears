@@ -18,7 +18,7 @@ export default function Home({ meta, content }) {
 
       <HeaderComponent></HeaderComponent>
 
-      <main className={styles.main}>
+      <main>
         <div dangerouslySetInnerHTML={{ __html: content }} />
       </main>
 
