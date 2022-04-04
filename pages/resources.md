@@ -2,6 +2,8 @@
 
 [Trucy's HTML Workshop](https://www.youtube.com/watch?v=hnoB2sJtyOA) Yellowstone Magic Blaseball fan and all around swell friend Trucy hosted this HTML for beginners workshop.
 
+> [Workshop Demo](https://bearsdotzone.github.io/trucy-workshop-1/) Here's an open source, commented example of the workshop's expected outcome.
+
 Your search engine of choice. I'm serious, nobody can hold the whole of web design in their head at once. If you're having trouble figuring it out, give it a search. Stackoverflow is a great source of questions and answers.
 
 [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Learn) Mozilla's guide to web development. Teaches you at the high level and empowers you to dig deeper into the documentation. Sections for debugging HTML, browser developer tools, and accessibility.
