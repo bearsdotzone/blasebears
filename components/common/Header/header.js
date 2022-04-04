@@ -26,6 +26,9 @@ function HeaderComponent() {
           </Link>{" "}
           <Link href="/resources">
             <a>Resources</a>
+          </Link>{" "}
+          <Link href="/members">
+            <a>Members</a>
           </Link>
         </span>
         <Link href="https://ring.yell.rocks/next">
