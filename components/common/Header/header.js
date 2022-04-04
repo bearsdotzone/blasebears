@@ -8,18 +8,21 @@ function HeaderComponent() {
   return (
     <div className={styles.header}>
       <div className={styles.rowcontainer}>
-        <Link href="https://ring.yell.rocks/prev">
-          <Image src={prev} layout="fixed" unoptimized="true" />
-        </Link>
+        <a
+          href="https://ring.yell.rocks/prev"
+          style={{ width: 108, height: 72, position: "relative" }}
+        >
+          <Image src={prev} layout="fill" unoptimized="true" />
+        </a>
         <h1>Internet League Blaseball Fans Web Ring</h1>
-        <Link href="https://ring.yell.rocks/next">
-          <Image src={next} layout="fixed" unoptimized="true" />
-        </Link>
+        <a
+          href="https://ring.yell.rocks/next"
+          style={{ width: 108, height: 72, position: "relative" }}
+        >
+          <Image src={next} layout="fill" unoptimized="true" />
+        </a>
       </div>
       <div className={styles.rowcontainer}>
-        <Link href="https://ring.yell.rocks/prev">
-          <a>Previous</a>
-        </Link>
         <span>
           <Link href="/">
             <a>Home</a>
@@ -31,9 +34,6 @@ function HeaderComponent() {
             <a>Members</a>
           </Link>
         </span>
-        <Link href="https://ring.yell.rocks/next">
-          <a>Next</a>
-        </Link>
       </div>
     </div>
   );

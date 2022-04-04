@@ -9,6 +9,8 @@ body {
 
 a {
   color: #1460aa;
+  flex-shrink: 1;
+  flex-grow: 0;
 }
 a:visited {
   color: #77448b;
