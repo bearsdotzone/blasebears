@@ -10,11 +10,12 @@ class WebringBanner extends HTMLElement {
     return `
         <style>   
         .webring__box {
-          flex: 0 0 300px;
           height: 100px;
+          width: 300px;
           background-color: rgb(230, 230, 230);
           margin-top: 1vh;
           margin-bottom: 1vh;
+          text-align: center;
           padding: 3px 3px 3px 3px;
           display: flex;
           align-items: center;
@@ -70,8 +71,8 @@ class WebringBanner extends HTMLElement {
                 <span>This site is part of</span>
                 <a href="https://ring.yell.rocks/">Internet League Blaseball Fans Web Ring</a>
                 <p>
-                  <a href="https://ring.yell.rock/prev">⬅️</a>
-                  <a href="https://ring.yell.rock/random">Random</a>
+                  <a href="https://ring.yell.rocks/prev">⬅️</a>
+                  <a href="https://ring.yell.rocks/random">Random</a>
                   <a href="https://ring.yell.rocks/next">➡️</a>
                 </p>
               </div>
