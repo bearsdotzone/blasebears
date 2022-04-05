@@ -14,7 +14,7 @@ export default function MembersPage({ meta, content }) {
         <title>Internet League Blaseball Fans Web Ring</title>
         <meta
           name="description"
-          content="Link your favorite quaint web Blaseball fan sites together!"
+          content="Link your favorite Blaseball fan sites together!"
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
