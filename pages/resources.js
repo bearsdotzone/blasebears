@@ -1,5 +1,4 @@
 import Head from "next/head";
-import styles from "../styles/Home.module.css";
 import HeaderComponent from "../components/common/Header/header";
 import FooterComponent from "../components/common/Footer/footer";
 import { getPostData } from "../lib/pages";
