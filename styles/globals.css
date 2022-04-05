@@ -17,7 +17,7 @@ a:visited {
 }
 
 .remark-highlight {
-  max-width: calc(100vw - 2rem);
+  max-width: min(80rem, calc(100vw - 2rem));
 }
 
 main {
