@@ -10,15 +10,15 @@ Your search engine of choice. I'm serious, nobody can hold the whole of web desi
 
 ### Games
 
-[CSS Diner](https://flukeout.github.io/) Learn how CSS selectors work.
+[CSS Diner](https://flukeout.github.io/) Learn about CSS selectors.
 
-[Flexbox Froggy](http://flexboxfroggy.com/) Learning about flexboxes, an alignment technique.
+[Flexbox Froggy](http://flexboxfroggy.com/) Learn about flexboxes, a CSS alignment technique.
 
-[Grid Garden](https://cssgridgarden.com/) Learn how grids work in CSS.
+[Grid Garden](https://cssgridgarden.com/) Learn about grids, a CSS alignment technique.
 
 ## Assets
 
-[GifCities](https://gifcities.org/) is run by the internet archive. It's the "GeoCities Animated GIF Search Engine"
+[GifCities](https://gifcities.org/) is run by the Internet Archive. It's the "GeoCities Animated GIF Search Engine"
 
 [Accesible Color Combinations](http://colorsafe.co/) Making sure we can all join in on the fun.
 
