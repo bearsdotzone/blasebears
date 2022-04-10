@@ -24,7 +24,7 @@ function FooterComponent() {
           <br />
           Bears loves Alexandra 💖
         </p>
-        <Image src={construction} unoptimized="true" />
+        <Image src={construction} unoptimized="true" alt=""/>
       </div>
     </div>
   );

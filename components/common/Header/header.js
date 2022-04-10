@@ -12,14 +12,24 @@ function HeaderComponent() {
           href="https://ring.yell.rocks/prev"
           style={{ width: 108, height: 72, position: "relative" }}
         >
-          <Image src={prev} layout="fill" unoptimized="true" />
+          <Image
+            src={prev}
+            layout="fill"
+            unoptimized="true"
+            alt="A baseball labelled Next"
+          />
         </a>
         <h1>Internet League Blaseball Fans Web Ring</h1>
         <a
           href="https://ring.yell.rocks/next"
           style={{ width: 108, height: 72, position: "relative" }}
         >
-          <Image src={next} layout="fill" unoptimized="true" />
+          <Image
+            src={next}
+            layout="fill"
+            unoptimized="true"
+            alt="A baseball labelled Next"
+          />
         </a>
       </div>
       <div className={styles.rowcontainer}>
