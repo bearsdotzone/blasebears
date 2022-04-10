@@ -17,7 +17,7 @@ WORKDIR /app
 COPY . .
 # update each dependency in package.json to the latest version
 RUN npm install
-RUN npm build
+RUN npm run build
 # Bundle app source
 COPY . /app
 EXPOSE 3000
