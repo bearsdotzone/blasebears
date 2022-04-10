@@ -1,5 +1,3 @@
 FROM node:17
 EXPOSE 3000
-WORKDIR $GITHUB_WORKSPACE
-RUN npm install
-RUN npm build
+RUN ls
