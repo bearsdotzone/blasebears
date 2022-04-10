@@ -3,7 +3,7 @@ name: default
 
 steps:
   - name: publish-api-docker
-    image: plugins/docker:1.12
+    image: plugins/docker
     username:
       from_secret: DOCKER_USERNAME
     password:
