@@ -1,3 +1,8 @@
-FROM node:17
+FROM alpine
+RUN apk add --update npm git
+RUN git clone ${{ github.repository }}
+WORKDIR blasebears
+RUN npm install
+RUN npm build
+ENTRYPOINT npm start
 EXPOSE 3000
-RUN ls /home/node/
