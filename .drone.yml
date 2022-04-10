@@ -3,8 +3,10 @@ type: docker
 name: default
 
 steps:
-- name: deploy
-  image: node:17
-  commands:
-  - npm install
-  - npm run build
+  - name: deploy
+    image: node:latest
+    environment:
+      NODE_OPTIONS: --openssl-legacy-provider
+    commands:
+      - npm install
+      - npm run build
