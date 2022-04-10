@@ -5,8 +5,10 @@ name: default
 steps:
   - name: publish-api-docker
     image: plugins/docker:1.12
-    username: ${DOCKER_USERNAME}
-    password: ${DOCKER_PASSWORD}
+    username:
+      from_secret: DOCKER_USERNAME
+    password:
+      from_secret: DOCKER_PASSWORD
     email: ${DOCKER_EMAIL}
     repo: msbears/blasebears
     tags:
