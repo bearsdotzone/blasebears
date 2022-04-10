@@ -9,7 +9,8 @@ steps:
       from_secret: DOCKER_USERNAME
     password:
       from_secret: DOCKER_PASSWORD
-    email: ${DOCKER_EMAIL}
+    email:
+      from_secret: DOCKER_EMAIL
     repo: msbears/blasebears
     tags:
       - latest
