@@ -12,5 +12,4 @@ steps:
     email:
       from_secret: DOCKER_EMAIL
     repo: msbears/blasebears
-    tags:
-      - latest
+    auto-tag: true
