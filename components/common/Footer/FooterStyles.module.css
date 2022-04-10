@@ -9,11 +9,14 @@
   align-self: center;
 }
 
+.footercontainer a {
+  align-self: center;
+}
+
 .footer {
   position: sticky;
   bottom: 0rem;
   padding: 0rem;
-  /* background-color: rgba(200, 200, 200, 1); */
   text-align: center;
   border-width: 0.5rem 0rem 0rem 0rem;
   border-color: #da0000;

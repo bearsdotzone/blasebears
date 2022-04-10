@@ -1,11 +1,15 @@
 import styles from "./FooterStyles.module.css";
 import construction from "../../../images/construction.gif";
 import Image from "next/image";
+import Link from "next/link";
 
 function FooterComponent() {
   return (
     <div className={styles.footer}>
       <div className={styles.footercontainer}>
+        <Link href="#" className={{"display" : "inline", "verticalAlign" : "middle"}}>
+          Back to Top
+        </Link>
         <p>
           github:{" "}
           <a href="https://github.com/bearsdotzone/blasebears">

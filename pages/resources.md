@@ -1,3 +1,5 @@
+## Table of Contents
+
 ## HTML Help / Tutorials
 
 [Trucy's HTML Workshop](https://www.youtube.com/watch?v=hnoB2sJtyOA) Yellowstone Magic Blaseball fan and all around swell friend Trucy hosted this HTML for beginners workshop.
