@@ -1,6 +1,6 @@
 import styles from "./FooterStyles.module.css";
 import construction from "../../../images/construction.gif";
-import Image from "next/legacy/image";
+import Image from "next/image";
 import Link from "next/link";
 
 function FooterComponent() {
@@ -27,7 +27,15 @@ function FooterComponent() {
           <br />
           Bears loves Alexandra 💖
         </p>
-        <Image src={construction} unoptimized="true" alt="" />
+        <Image
+          src={construction}
+          unoptimized="true"
+          alt=""
+          style={{
+            maxWidth: "100%",
+            height: "auto",
+          }}
+        />
       </div>
     </div>
   );

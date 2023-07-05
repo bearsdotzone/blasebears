@@ -4,7 +4,7 @@ import HeaderComponent from "../components/common/Header/header";
 import FooterComponent from "../components/common/Footer/footer";
 import { getPostData } from "../lib/pages";
 import members from "../data/members.json";
-import Image from "next/legacy/image";
+import Image from "next/image";
 import baseball from "../images/baseball.gif";
 
 export default function MembersPage({ meta, content }) {
@@ -29,9 +29,12 @@ export default function MembersPage({ meta, content }) {
               <div className={styles.icon}>
                 <Image
                   src={member.image || baseball}
-                  layout="fill"
-                  objectFit="contain"
                   alt={member.alt || ""}
+                  fill
+                  sizes="100vw"
+                  style={{
+                    objectFit: "contain",
+                  }}
                 />
               </div>
               <div className={styles.description}>

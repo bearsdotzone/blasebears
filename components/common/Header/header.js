@@ -1,6 +1,6 @@
 import styles from "./HeaderStyles.module.css";
 import Link from "next/link";
-import Image from "next/legacy/image";
+import Image from "next/image";
 import prev from "../../../images/prev.gif";
 import next from "../../../images/next.gif";
 
@@ -14,9 +14,10 @@ function HeaderComponent() {
         >
           <Image
             src={prev}
-            layout="fill"
             unoptimized="true"
             alt="A baseball labelled Next"
+            fill
+            sizes="100vw"
           />
         </a>
         <h1>Internet League Blaseball Fans Web Ring</h1>
@@ -26,9 +27,10 @@ function HeaderComponent() {
         >
           <Image
             src={next}
-            layout="fill"
             unoptimized="true"
             alt="A baseball labelled Next"
+            fill
+            sizes="100vw"
           />
         </a>
       </div>
