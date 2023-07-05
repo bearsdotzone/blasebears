@@ -34,15 +34,8 @@ function HeaderComponent() {
       </div>
       <div className={styles.rowcontainer}>
         <span>
-          <Link href="/">
-            <a>Home</a>
-          </Link>{" "}
-          <Link href="/resources">
-            <a>Resources</a>
-          </Link>{" "}
-          <Link href="/members">
-            <a>Members</a>
-          </Link>
+          <Link href="/">Home</Link> <Link href="/resources">Resources</Link>{" "}
+          <Link href="/members">Members</Link>
         </span>
       </div>
     </div>
