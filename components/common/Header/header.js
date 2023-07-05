@@ -1,6 +1,6 @@
 import styles from "./HeaderStyles.module.css";
 import Link from "next/link";
-import Image from "next/image";
+import Image from "next/legacy/image";
 import prev from "../../../images/prev.gif";
 import next from "../../../images/next.gif";
 

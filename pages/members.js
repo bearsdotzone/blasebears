@@ -4,7 +4,7 @@ import HeaderComponent from "../components/common/Header/header";
 import FooterComponent from "../components/common/Footer/footer";
 import { getPostData } from "../lib/pages";
 import members from "../data/members.json";
-import Image from "next/image";
+import Image from "next/legacy/image";
 import baseball from "../images/baseball.gif";
 
 export default function MembersPage({ meta, content }) {

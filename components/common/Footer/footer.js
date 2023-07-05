@@ -1,13 +1,16 @@
 import styles from "./FooterStyles.module.css";
 import construction from "../../../images/construction.gif";
-import Image from "next/image";
+import Image from "next/legacy/image";
 import Link from "next/link";
 
 function FooterComponent() {
   return (
     <div className={styles.footer}>
       <div className={styles.footercontainer}>
-        <Link href="#" className={{"display" : "inline", "verticalAlign" : "middle"}}>
+        <Link
+          href="#"
+          className={{ display: "inline", verticalAlign: "middle" }}
+        >
           Back to Top
         </Link>
         <p>
@@ -24,7 +27,7 @@ function FooterComponent() {
           <br />
           Bears loves Alexandra 💖
         </p>
-        <Image src={construction} unoptimized="true" alt=""/>
+        <Image src={construction} unoptimized="true" alt="" />
       </div>
     </div>
   );
